@@ -58,12 +58,15 @@ input {
     text-align: center;
 }
 
-output {
+#results-div {
     margin-top: 10px;
     font-size: 1.5rem;
     font-weight: bold;
+    text-align: center;
     color: var(--text-color);
+    width: 70%;
     height: 70%;
+    overflow-y: scroll;
 }
 
 nav {
